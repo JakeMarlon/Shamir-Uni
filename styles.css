@@ -1,0 +1,152 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('imagenes/IND.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Encabezado */
+header {
+    background-color: rgba(178, 34, 34, 0.9);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header .logo p {
+    font-size: 18px;
+    margin: 5px 0 15px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: rgba(139, 0, 0, 0.8);
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/* Secciones principales */
+main section {
+    margin: 20px auto;
+    padding: 30px;
+    max-width: 1000px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* Estilo de títulos */
+main section h2 {
+    color: #ff6347;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Botones */
+form button, button {
+    background-color: #B22222;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover, button:hover {
+    background-color: #8B0000;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(139, 0, 0, 0.9);
+    padding: 20px 0;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Imágenes */
+.sha-img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+}
+
+/* Listas */
+ul.center-text {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.center-text li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Enlaces en secciones */
+#productos a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#productos a:hover {
+    text-decoration: underline;
+}
+
+/* Productos */
+.product-links h3 {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+/* Blog */
+section#blog {
+    padding: 20px;
+}
+
+/* Contacto */
+.center-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
